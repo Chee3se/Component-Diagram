@@ -2,6 +2,7 @@ import ArticleOne from "./components/ArticleOne.tsx";
 import ArticleTwo from "./components/ArticleTwo.tsx";
 import ArticleThree from "./components/ArticleThree.tsx";
 import ArticleFour from "./components/ArticleFour.tsx";
+import ArticleFive from "./components/ArticleFive.tsx";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
           <ArticleTwo />
           <ArticleThree />
           <ArticleFour />
+          <ArticleFive />
       </main>
   );
 }
