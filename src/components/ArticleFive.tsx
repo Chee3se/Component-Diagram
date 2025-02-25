@@ -8,6 +8,11 @@ export default function ArticleFive() {
                 direction="right"
             >
                 <h2 className="text-6xl font-extrabold mb-6">Kā šī diagramma izskatītos <span className="italic">Blog</span> projektā?</h2>
+                <img
+                    src="/images/DiagramBlog.png"
+                    alt="Diagram Blog"
+                    className="w-full h-[calc(100vh-12rem)] object-contain bg-white rounded-xl shadow-xl"
+                />
             </Reveal>
         </article>
     )
