@@ -2,12 +2,11 @@ import { motion } from 'framer-motion';
 
 type RevealProps = {
     children: React.ReactNode;
-    title: string;
     className?: string;
     direction?: 'left' | 'right' | 'up';
 };
 
-export function Reveal({ children, title, className = "", direction = 'up' }: RevealProps) {
+export function Reveal({ children, className = "", direction = 'up' }: RevealProps) {
     const variants = {
         hidden: {
             opacity: 0,
@@ -33,7 +32,6 @@ export function Reveal({ children, title, className = "", direction = 'up' }: Re
             whileInView="visible"
             viewport={{ once: false, amount: 0.3 }}
         >
-            <h2 className="text-6xl font-extrabold mb-6">{title}</h2>
             {children}
         </motion.div>
     );
