@@ -29,7 +29,7 @@ function App() {
 
         <article className="snap-start h-screen bg-gradient-to-br from-orange-600 to-red-600 text-white flex items-center">
           <Reveal
-              title="Kādi uml elementi?"
+              title="Kādi uml elementi tiek izmantoti?"
               className="max-w-4xl mx-auto"
               direction="up"
           >
