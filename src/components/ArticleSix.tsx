@@ -8,8 +8,8 @@ export default function ArticleSix() {
                 direction="right"
             >
                 <h2 className="text-6xl font-extrabold mb-6">Uzdevums:</h2>
-                <p>uztaisīt komponenšu diagrammu, kurā eksistē šādas komponentes: App, Todo, AddTodo, TodoController, Database</p>
-                
+                <p className="text-xl text-white/90 font-medium">uztaisīt komponenšu diagrammu, kurā eksistē šādas komponentes: App, Todo, AddTodo, TodoController, Database</p>
+
             </Reveal>
         </article>
     )
